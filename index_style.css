@@ -3,22 +3,38 @@
 
 * {
     font-family: Impact, sans-serif;
-    color: #871;
+    color: #000;
 }
 
 body {
-    background-image: url("./images/background.png");
     background-color: #5099d2;
 }
 
 #header {
+    background-color: #5099d2;
+    text-align: center;
 }
 
 #card {
+
+
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
 }
 
 .card {
     text-decoration: none;
+    background-color: #ca8525;
+    border: black solid 2px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
 }
 
 .card div {
@@ -31,4 +47,10 @@ body {
 }
 
 footer {
+}
+
+@media screen and (max-width: 600px){
+    #container{
+        grid-template-columns: auto;
+    }
 }
