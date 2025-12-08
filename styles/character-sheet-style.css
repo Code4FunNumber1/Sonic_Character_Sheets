@@ -1,0 +1,44 @@
+* {
+    font-family: Impact, sans-serif;
+    color: #000;
+
+}
+
+body {
+    background-color: #5099d2;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+}
+
+#main {
+    margin: auto;
+    text-decoration: none;
+    background-color: #ca8525;
+    border: black solid 2px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#description {
+
+}
+
+#image-container {
+    width: 500px;
+    float: right;
+    text-align: center;
+}
+
+#description::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#sonic1{
+    width: 250px;
+}
+
