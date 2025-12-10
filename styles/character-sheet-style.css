@@ -6,7 +6,7 @@
 
 body {
     background-color: #5099d2;
-    margin: 0;
+    margin: 1em;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
 }
 
 #main {
-    margin: auto;
+    margin: 1em;
     text-decoration: none;
     background-color: #ca8525;
     border: black solid 2px;
@@ -27,9 +27,12 @@ header {
 }
 
 #image-container {
-    width: 500px;
+    width: 250px;
     float: right;
     text-align: center;
+    background: cadetblue;
+    border: black solid 2px;
+    border-radius: 10px;
 }
 
 #description::after {
@@ -39,6 +42,6 @@ header {
 }
 
 #sonic1{
-    width: 250px;
+    width: 200px;
 }
 
