@@ -6,10 +6,30 @@
 
 body {
     background-color: #5099d2;
+    margin: 0;
+}
+
+#content {
     margin: 1em;
 }
 
 header {
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    border-bottom: black solid 3px;
+    background-color: slategray;
+    margin: 0;
+    padding: 10px;
+}
+
+#header img {
+    width: 50px;
+}
+
+#header h1 {
     margin: 0;
 }
 
@@ -20,10 +40,6 @@ header {
     border: black solid 2px;
     padding: 5px;
     border-radius: 10px;
-}
-
-#description {
-
 }
 
 #image-container {
@@ -41,7 +57,7 @@ header {
     display: table;
 }
 
-#sonic1{
+#character-image {
     width: 200px;
 }
 
