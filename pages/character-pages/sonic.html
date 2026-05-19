@@ -4,31 +4,16 @@
         <meta charset="UTF-8">
         <title>Sonic The Hedgehog</title>
         <link rel="stylesheet" href="../../styles/character-sheet-style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+        <script src="../../scripts/script.js"></script>
     </head>
 
-    <body>
+    <body onload='loadEntry("sonic")'>
         <header id="header">
             <a href="../../index.html"><img src="../../images/home-icon.png" alt="Home"></a>
         </header>
 
-        <div id="content">
-            <div>
-                <h1>Sonic The Hedgehog</h1>
-            </div>
-
-            <main id="main">
-                <div class="container" id="image-container">
-                    <img src="../../images/sonic.png" alt="Sonic" id="character-image">
-                    <p>First Game: Sonic the Hedgehog (1991)</p>
-                </div>
-
-                <p id="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut consequuntur,
-                    dolores,
-                    ea expedita explicabo facilis labore quisquam quod reprehenderit tenetur vitae. Architecto dolorum
-                    eligendi harum necessitatibus non vero.
-                </p>
-            </main>
-        </div>
+        <div id="content"></div>
+        
     </body>
 </html>
