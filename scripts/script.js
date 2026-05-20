@@ -19,18 +19,18 @@ async function loadEntry(character){
     let html = "";
 
     content.innerHTML = data.map(entry => html += `
-            <div class="character">
+            <div>
                 <div>
                     <h1>${entry.name}</h1>
                 </div>
 
                 <main id="main">
-                    <div class="container" id="image-container">
+                    <div id="image-container">
                         <img src="../../images/${entry.image_filename}" alt="${entry.name}" class="character-image">
                         <p>${entry.character_description}</p>
                     </div>
 
-                    <p class="description">${entry.description}</p>
+                    <p id="description">${entry.description}</p>
                 </main>
             </div>
     `);
